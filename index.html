@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zakupów — jQuery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Lista zakupów</h1>
+
+    <input type="text" id="productInput" placeholder="Wpisz produkt">
+
+    <div class="buttons">
+        <button id="addBtn">Dodaj produkt</button>
+        <button id="addStartBtn">Dodaj na początku</button>
+        <button id="addEndBtn">Dodaj na końcu</button>
+        <button id="removeLastBtn">Usuń ostatni</button>
+        <button id="clearBtn">Wyczyść listę</button>
+        <button id="restoreBtn">Przywróć listę</button>
+        <button id="colorBtn">Pokoloruj co drugi</button>
+        <button id="sortBtn">Sortuj A–Z</button>
+    </div>
+
+    <input type="text" id="filterInput" placeholder="Filtruj...">
+    <button id="filterBtn">Filtruj</button>
+
+    <ul id="shoppingList" class="list-group">
+        <li class="list-group-item">Chleb</li>
+        <li class="list-group-item">Mleko</li>
+        <li class="list-group-item">Jajka</li>
+    </ul>
+
+</body>
+</html>

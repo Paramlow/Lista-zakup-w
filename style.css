@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.list-group-item.active {
+    background: lightblue;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.buttons button {
+    margin: 5px;
+}
